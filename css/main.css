@@ -128,7 +128,7 @@ body{
     top: 50%;
     transform: translateY(-50%);
     font-size: 14px;
-    font-family: "mLight";
+    font-family: "montserrat-extra-light";
     color: rgb(178, 178, 178);
 }
 
@@ -145,7 +145,7 @@ body{
     width: 18%;
     height: 61%;
     font-size: 14px;
-    font-family: "mSemiBold";
+    font-family: "montserrat-semi-bold";
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
