@@ -5,8 +5,11 @@
     <title>Be to be</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=600, initial-scale=1">
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/style-max-width-1450.css">
     <link rel="stylesheet" href="css/style-max-width-1200.css">
     <link rel="stylesheet" href="css/style-max-width-900.css">
@@ -18,20 +21,21 @@
     <div class="header">
         <div class="header-left-wrap">
             <img src="img/personlist.png">
-            <div class="header-explore-more">
-                <span>Explore more</span>
-                <span>Categories</span>
+            <div class="header-explore-more fc-white fs-16">
+                <span class="montserrat-extra-light">Explore more</span>
+                <span class="header-categories montserrat-semi-bold">Categories</span>
 
-                <img class="explore-more-arrow" src="img/arrow-blue-right.png">
             </div>
+
+            <img class="explore-more-arrow" src="img/arrow-blue-right.png">
         </div>
 
-        <div class="header-right-wrap">
+        <div class="header-right-wrap fc-white fs-16 montserrat-semi-bold">
             <span>All offers</span>
             <span>About project</span>
             <span>How to</span>
 
-            <div class="header-sign-in">sign in</div>
+            <div class="header-sign-in fs-12">sign in</div>
         </div>
     </div>
 
@@ -39,7 +43,7 @@
 
         <div class="header-container" style="background-image: url('img/bg-img.jpg');">
 
-            <div class="fs-60 fc-white montserrat-semi-bold">
+            <div class="header-container-text fs-60 fc-white montserrat-semi-bold">
                 PERSONLIST
                 2017 Benefit
                 Statement
@@ -49,64 +53,113 @@
                 <img src="img/search.png">
                 <input type="text" title="search" placeholder="Enter keyword text here">
 
-                <div class="search-container-btn bg-blue"></div>
+                <div class="search-container-btn bg-blue fc-white montserrat-semi-bold fs-16 bg-blue">search</div>
             </div>
 
         </div>
 
 
-        <div class="daily-offers">
-            <div class="daily-offers-title">Daily offers</div>
+        <div class="person-list-middle-wrap">
+            <div class="daily-offers bg-white">
+                <div class="daily-offers-title montserrat-semi-bold fc-black fs-24">Daily Offers</div>
 
-            <div class="daily-offers-list">
-                <div class="daily-offer">
-                    <img src="img/img.png">
-                    <div class="daily-offer-text"></div>
-                    <div class="daily-offer-price"></div>
+
+                <div class="daily-offers-list">
+                    <div class="daily-offer">
+                        <img src="img/img1.jpg">
+                        <div class="daily-offer-text fs-14 fc-black montserrat-extra-light">Cashing out comes with an immediate price.</div>
+                        <div class="daily-offer-price fc-blue fs-14 montserrat-extra-light"> $600.00</div>
+                    </div>
+
+                    <div class="daily-offer">
+                        <img src="img/img1.jpg">
+                        <div class="daily-offer-text fs-14 fc-black montserrat-extra-light">Cashing out comes with an immediate price.</div>
+                        <div class="daily-offer-price fc-blue fs-14 montserrat-extra-light"> $600.00</div>
+                    </div>
+
+                    <div class="daily-offer">
+                        <img src="img/img1.jpg">
+                        <div class="daily-offer-text fs-14 fc-black montserrat-extra-light">Cashing out comes with an immediate price.</div>
+                        <div class="daily-offer-price fc-blue fs-14 montserrat-extra-light"> $600.00</div>
+                    </div>
+
+                    <div class="daily-offer">
+                        <img src="img/img1.jpg">
+                        <div class="daily-offer-text fs-14 fc-black montserrat-extra-light">Cashing out comes with an immediate price.</div>
+                        <div class="daily-offer-price fc-blue fs-14 montserrat-extra-light"> $600.00</div>
+                    </div>
+
+                    <div class="daily-offer">
+                        <img src="img/img1.jpg">
+                        <div class="daily-offer-text fs-14 fc-black montserrat-extra-light">Cashing out comes with an immediate price.</div>
+                        <div class="daily-offer-price fc-blue fs-14 montserrat-extra-light"> $600.00</div>
+                    </div>
+
+                    <div class="daily-offer">
+                        <img src="img/img1.jpg">
+                        <div class="daily-offer-text fs-14 fc-black montserrat-extra-light">Cashing out comes with an immediate price.</div>
+                        <div class="daily-offer-price fc-blue fs-14 montserrat-extra-light"> $600.00</div>
+                    </div>
+
+                    <div class="daily-offer">
+                        <img src="img/img1.jpg">
+                        <div class="daily-offer-text fs-14 fc-black montserrat-extra-light">Cashing out comes with an immediate price.</div>
+                        <div class="daily-offer-price fc-blue fs-14 montserrat-extra-light"> $600.00</div>
+                    </div>
+
+                    <div class="daily-offer">
+                        <img src="img/img1.jpg">
+                        <div class="daily-offer-text fs-14 fc-black montserrat-extra-light">Cashing out comes with an immediate price.</div>
+                        <div class="daily-offer-price fc-blue fs-14 montserrat-extra-light"> $600.00</div>
+                    </div>
+
+
                 </div>
             </div>
-        </div>
 
 
-        <div class="special-offers">
-            <div class="special-offers-title">Special offers</div>
+            <div class="special-offers">
+                <div class="special-offers-title">Special offers</div>
 
-            <div class="special-offers-list bg-white">
-                <div class="special-offer">
+                <div class="special-offers-list bg-white">
+                    <div class="special-offer">
 
+                    </div>
+                </div>
+
+                <div class="special-offer-slider"></div>
+            </div>
+
+
+            <div class="technology">
+                <div class="technology-title"></div>
+
+                <div class="technology-list">
+                    <div class="technology-item"></div>
+                    <div class="technology-item"></div>
+                    <div class="technology-item"></div>
+                    <div class="technology-item"></div>
                 </div>
             </div>
 
-            <div class="special-offer-slider"></div>
-        </div>
 
+            <div class="architecture">
+                <div class="architecture-title"></div>
 
-        <div class="technology">
-            <div class="technology-title"></div>
+                <div class="architecture-list">
+                    <div class="architecture-item"></div>
+                    <div class="architecture-item"></div>
+                    <div class="architecture-item"></div>
+                    <div class="architecture-item"></div>
+                    <div class="architecture-item"></div>
 
-            <div class="technology-list">
-                <div class="technology-item"></div>
-                <div class="technology-item"></div>
-                <div class="technology-item"></div>
-                <div class="technology-item"></div>
+                </div>
+
+                <div class="load-more">Load more</div>
             </div>
         </div>
 
 
-        <div class="architecture">
-            <div class="architecture-title"></div>
-
-            <div class="architecture-list">
-                <div class="architecture-item"></div>
-                <div class="architecture-item"></div>
-                <div class="architecture-item"></div>
-                <div class="architecture-item"></div>
-                <div class="architecture-item"></div>
-
-            </div>
-
-            <div class="load-more">Load more</div>
-        </div>
     </div>
 
     <div class="footer bg-white">
@@ -143,6 +196,12 @@
 
 </div>
 
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
