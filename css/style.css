@@ -130,6 +130,7 @@
     max-width: 100%;
     margin: 0 auto;
     border-radius: 5px;
+    top: -40px;
 }
 
 .daily-offer {
@@ -155,6 +156,10 @@
 .daily-offers {
     height: 29vh;
     padding: 0 5%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
 }
 
 
@@ -188,7 +193,139 @@
     z-index: 15;
 }
 
+.special-offers {
+    margin-top: 100px;
+    position: relative;
+}
 
+
+.special-offers-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.orange-line {
+    width: 4%;
+    height: 3px;
+    border: none;
+    top: -10px;
+    position: relative;
+    text-align: center;
+    left: -10px;
+}
+
+.grey-line{
+    background-color: #e1e1e1;
+    border: none;
+    height: 1px;
+}
+
+
+.special-offer {
+    width: calc(32% - 70px);
+    display: inline-block;
+    height: calc(58vh - 70px);
+    padding: 35px;
+    border-radius: 5px;
+}
+
+.special-offer-time-left {
+    margin-bottom: 10px;
+}
+
+.author-profile-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+
+.author-name-position {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    margin-left: 15px;
+}
+
+span.full-name {
+    display: block;
+}
+
+span.working-position {
+    display: block;
+}
+
+img.more-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.special-offer-author {
+    position: relative;
+}
+
+.special-offer-tags {
+    margin-top: 18px;
+}
+
+.special-offer-tags span {
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.offer-img {
+    width: 130px;
+    height: 10vh !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+    /* background-size: cover; */
+}
+
+.special-offer-images {
+    margin-top: 30px;
+}
+
+.special-offer-text {
+    margin-top: 20px;
+}
+
+.special-offer-images .slick-dots {
+    bottom: -40px !important;
+    top: auto !important;
+    text-align: left !important;
+}
+
+
+.special-offer-images .slick-dots li {
+    margin: 0 0 !important;
+}
+
+.special-offer-mini-info div {
+    display: inline-block;
+    position: relative;
+}
+
+.special-offer-mini-info div span {
+    display: block;
+}
+
+.special-offer-mini-info {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-offer-line {
+    border: none;
+    background: grey;
+    height: 1px;
+    margin-top: 58px;
+}
 
 
 
