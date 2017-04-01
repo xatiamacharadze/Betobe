@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'montserrat-extra-light';
+    src: url('../fonts/montserrat-extralight/Montserrat-ExtraLight.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-extralight/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/montserrat-extralight/Montserrat-ExtraLight.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/montserrat-extralight/Montserrat-ExtraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/montserrat-extralight/Montserrat-ExtraLight.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+    font-family: 'montserrat-semi-bold';
+    src: url('../fonts/montserrat-semibold/Montserrat-SemiBold.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-semibold/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/montserrat-semibold/Montserrat-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/montserrat-semibold/Montserrat-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/montserrat-semibold/Montserrat-SemiBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+
+
+
+.montserrat-extra-light{
+    font-family: montserrat-extra-light, serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.montserrat-semi-bold{
+    font-family: montserrat-semi-bold, serif;
+    -webkit-font-smoothing: antialiased;
+}
