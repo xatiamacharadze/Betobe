@@ -27,4 +27,12 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 3
     });
+
+
+    $('.special-offer-list').slick({
+        dots: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
 });

@@ -224,9 +224,10 @@
 .special-offer {
     width: calc(32% - 70px);
     display: inline-block;
-    height: calc(58vh - 70px);
+    /* height: calc(58vh - 70px); */
     padding: 35px;
     border-radius: 5px;
+    margin-right: 20px;
 }
 
 .special-offer-time-left {
@@ -237,6 +238,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50px;
+    display: inline-block !important;
 }
 
 
@@ -328,6 +330,86 @@ img.more-btn {
 }
 
 
+.special-offer-list > .slick-dots {
+    top: auto !important;
+    bottom: -90px !important;
+    text-align: center !important;
+    background-color: white;
+    border-radius: 5px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.technology {
+    margin-top: 150px;
+}
+
+.technology-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.technology-item {
+    width: calc(24%);
+    display: inline-block;
+    /*padding: 30px;*/
+    border-radius: 10px;
+    margin-right: 1%;
+}
+
+.technology-item .special-offer-author {
+    top: 120px;
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.technology-offer-text {
+    /* margin-top: 20px; */
+}
+
+.technology-offer-top {
+    height: 24vh;
+    border-radius: 10px 10px 0 0;
+}
+
+.technology-offer-info {
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.technology-item .special-offer-line {
+    margin-top: 20px;
+}
+
+
+.technology-offer-mini-info div {
+    display: inline-block;
+}
+
+.technology-offer-mini-info span {
+    display: block;
+}
+
+.technology-offer-mini-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-technology div {
+    /* margin-bottom: 10px; */
+    margin-top: 10px;
+}
+
+
+.special-offer-line{
+    background-color: #eaeaea;
+}
+
+
+.technology-item:last-child {
+    margin-right: 0;
+}
 
 
 
