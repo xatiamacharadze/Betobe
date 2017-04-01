@@ -1,0 +1,192 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font: 71%/1.5 bpg-arial, bpg-arial;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    /*overflow-x: hidden;*/
+    position: relative;
+    /*transform: translateZ(0);*/
+}
+
+.fs-12{
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.fs-14{
+    font-size: 14px;
+    line-height:22px;
+}
+
+.fs-16{
+    font-size: 16px;
+    line-height: 28.6px;
+}
+
+.fs-17{
+    font-size: 17px;
+    line-height:27.2px;
+}
+
+.fs-18 {
+    font-size: 18px;
+    line-height: 28.2px;
+}
+
+.fs-20{
+    font-size: 20px;
+    line-height:32px;
+}
+
+.fs-22{
+    font-size: 22px;
+    line-height:35px;
+}
+
+.fs-24{
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.fs-26{
+    font-size: 26px;
+    line-height:41px;
+}
+
+.fs-30{
+    font-size: 30px;
+    line-height:48px;
+}
+
+.fs-36{
+    font-size: 36px;
+    line-height:57px;
+}
+
+.fs-46{
+    font-size: 46px;
+    line-height:73px;
+}
+
+.fs-60{
+    font-size: 60px;
+    line-height: 96px;
+}
+
+
+
+
+.bg-purple{
+    background-color: #7a64ed;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-black{
+    background-color: #515152;
+}
+
+.bg-grey{
+    background-color: #eaeaed;
+}
+
+
+.bg-light-grey{
+    background-color: #fcfcfd;
+}
+
+
+.bg-footer-grey{
+    background-color: #f0f0f0;
+}
+
+
+
+.bg-blue{
+    background-color: #4545ef;
+}
+
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-black{
+    background-color: #222222;
+}
+
+.bg-grey{
+    background-color: #b2b2b2;
+}
+
+
+.bg-bluish-grey{
+    background-color: #9ca7a9;
+}
+
+
+.bg-light-grey{
+    background-color: #f0f5f6;
+}
+
+
+.bg-orange{
+    background-color: #f7562b;
+}
+
+
+.bg-green{
+    background-color: #77c138;
+}
+
+
+.bg-yellow{
+    background-color: #f9d741;
+}
+
+
+
+
+
+.fc-blue{
+    color: #4545ef;
+}
+
+
+.fc-white{
+    color: white;
+}
+
+.fc-black{
+    color: #222222;
+}
+
+.fc-grey{
+    color: #b2b2b2;
+}
+
+
+.fc-bluish-grey{
+    color: #9ca7a9;
+}
+
+
+.fc-light-grey{
+    color: #f0f5f6;
+}
+
+
+
+img{
+    vertical-align: middle;
+}
+
+
+input{
+    border: none;
+    outline: none;
+}
