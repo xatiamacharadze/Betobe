@@ -190,3 +190,8 @@ input{
     border: none;
     outline: none;
 }
+
+
+.uppercase{
+    text-transform: uppercase;
+}
