@@ -645,6 +645,22 @@ a.login {
 }
 
 
+.password-recovered-text span:first-child {
+    display: block;
+}
+
+.password-recovered-text {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.password-recovered-img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
 
 
 
