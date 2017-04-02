@@ -712,6 +712,153 @@ input#accept-terms-checkbox {
 }
 
 
+.chat-middle {
+    width: 1530px;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+    top: 120px;
+    margin-bottom: 150px;
+}
+
+.chat-middle-left {
+    width: calc(23% - 100px);
+    padding: 50px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.chat-person-settings {
+    margin-top: 40px;
+}
+
+.chat-person-setting {
+    margin-top: 10px;
+    position: relative;
+}
+
+.chat-person-setting span {
+    margin-left: 20px;
+}
+
+.unread-messages {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    border-radius: 50px;
+    padding: 1px 5px;
+}
+
+.chat-person-other-stuff {
+    margin-top: 40px;
+}
+
+.other-stuff {
+    margin-top: 20px;
+    position: relative;
+}
+
+.other-stuff img {
+    position: absolute;
+    right: 0;
+}
+
+.chat-middle-right {
+    width: 75%;
+    position: relative;
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.chat-person-detailed-info {
+    width: calc(42% - 100px);
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
+    border-radius: 10px 0 0 10px;
+}
+
+.chat-middle .special-offer-mini-info {
+    display: block;
+    justify-content: initial;
+}
+
+
+.chat-middle .special-offer-mini-info div {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.person-chat {
+    width: calc(57% - 100px);
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 50px;
+}
+
+.chat-message {
+    margin-top: 15px;
+}
+
+.one-message {
+    margin-bottom: 35px;
+}
+
+
+.type-message {
+    width: calc(57% - 32px);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
+    border-radius: 0 0 10px 0;
+}
+
+.message-and-other-stuff div {
+    display: inline-block;
+}
+
+.message-and-other-stuff {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.type-message-top {
+    position: relative;
+}
+
+
+.type-message-bottom input {
+    border: none;
+    width: 72%;
+    margin-right: 30px;
+}
+
+.type-message-bottom {
+    border-top: 1px solid #eef0f7;
+    margin-top: 10px;
+}
+
+.type-message-bottom img {
+    position: relative;
+    margin-right: 13px;
+}
 
 
 
