@@ -14,7 +14,7 @@
 }
 
 .header {
-    width: 1530px;
+    width: 79.9%;
     position: absolute;
     z-index: 15;
     height: 100px;
@@ -40,6 +40,7 @@
     text-align: center;
     line-height: 65px;
     text-transform: uppercase;
+    font-size: 6vh;
 }
 
 .header-container-search {
@@ -126,7 +127,7 @@
 
 .person-list-middle-wrap {
     position: relative;
-    width: 1530px;
+    width: 79.9%;
     max-width: 100%;
     margin: 0 auto;
     border-radius: 5px;
@@ -142,7 +143,7 @@
     width: 55%;
     display: inline-block;
     margin-left: 9%;
-    height: 4.4vh;
+    height: 40px;
     overflow: hidden;
 }
 
@@ -154,7 +155,7 @@
 }
 
 .daily-offers {
-    height: 29vh;
+    height: 290px;
     padding: 0 5%;
     border-radius: 5px;
     -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
@@ -608,7 +609,7 @@ a.login {
     top: 50%;
     transform: translateY(-50%);
     width: 24%;
-    height: 30vh;
+    height: 290px;
     padding:  10vh 8%;
     border-radius: 5px;
     text-align: center;
@@ -627,7 +628,7 @@ a.login {
 }
 
 .create-account-btn {
-    margin-top: 80px;
+    margin-top: 3vh;
     border: 1px solid;
     border-radius: 50px;
     padding: 10px 95px;
@@ -640,7 +641,7 @@ a.login {
 
 
 .password-recovery .login-register-left{
-    height: 29vh;
+    height: 290px;
     padding: 20vh 8%;
 }
 

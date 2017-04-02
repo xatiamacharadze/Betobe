@@ -1,0 +1,43 @@
+
+
+@media screen and (max-width: 1450px){
+    .header {
+        width: 95.9%;
+    }
+
+    .person-list-middle-wrap {
+        width: 95.9%;
+    }
+
+    .header-right-wrap {
+        width: 60%;
+    }
+
+
+    .footer-top {
+        padding: 0 2%;
+    }
+
+    .footer-contact {
+        right: 3%;
+        width: 35%;
+    }
+
+    .all-rights-reserved {
+        right: 3%;
+    }
+
+    .footer-bottom {
+        padding: 0 2%;
+    }
+
+    .sign-in-register .header-right-wrap {
+        margin-right: 2%;
+        width: 51%;
+    }
+
+    .sign-in-register .header-left-wrap {
+        margin-left: 2%;
+    }
+}
+
