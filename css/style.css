@@ -143,7 +143,7 @@
     width: 55%;
     display: inline-block;
     margin-left: 9%;
-    height: 40px;
+    height: 4.4vh;
     overflow: hidden;
 }
 
@@ -155,7 +155,7 @@
 }
 
 .daily-offers {
-    height: 290px;
+    height: 29vh;
     padding: 0 5%;
     border-radius: 5px;
     -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
@@ -497,7 +497,7 @@ img.more-btn {
     width: 1530px;
     max-width: 100%;
     margin: 0 auto;
-    margin-bottom: 20vh;
+    margin-bottom: 200px;
 }
 
 .login-register-left {
@@ -505,7 +505,7 @@ img.more-btn {
     left: 10%;
     position: relative;
     display: inline-block;
-    height: 49vh;
+    height: 490px;
     padding: 10vh 8%;
     border-radius: 5px;
     -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);

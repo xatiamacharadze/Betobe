@@ -1,4 +1,17 @@
 
+@media screen and (max-width: 1700px){
+    .sign-in-register .header-right-wrap {
+        margin-right: 5%;
+        width: 51%;
+    }
+
+    .sign-in-register .header-left-wrap {
+        margin-left: 5%;
+    }
+}
+
+
+
 
 @media screen and (max-width: 1450px){
     .header {
@@ -39,5 +52,6 @@
     .sign-in-register .header-left-wrap {
         margin-left: 2%;
     }
+
 }
 
