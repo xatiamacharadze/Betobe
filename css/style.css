@@ -486,6 +486,159 @@ img.more-btn {
     position: relative;
 }
 
+.sign-in-register .header-sign-in {
+    border: 1px solid #4545ef;
+}
+
+.login-register-middle {
+    position: relative;
+    top: 150px;
+    width: 1530px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20vh;
+}
+
+.login-register-left {
+    width: 24%;
+    left: 10%;
+    position: relative;
+    display: inline-block;
+    height: 49vh;
+    padding: 10vh 8%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
+    z-index: 15;
+}
+
+
+input {
+    width: 94%;
+    position: relative;
+    /* top: 0; */
+    border: 1px solid #eef0f7;
+    resize: none;
+    height: 45px;
+    line-height: 45px !important;
+    padding: 0 0 0 22px;
+    z-index: 8;
+    border-radius: 4px;
+    margin-top: 10px;
+    /* width: 230px; */
+}
+
+a.login {
+    display: block;
+    padding: 10px 0;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.between-line {
+    width: 100%;
+    border-bottom: 1px solid;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+.sign-in-socials {
+    position: relative;
+    margin-top: 40px;
+}
+
+.login-with-fb {
+    padding: 11px 20px;
+    border-radius: 50px;
+}
+
+.login-with-gmail {
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    margin-top: 20px;
+}
+
+.login-with-fb span {
+    margin-left: 51px;
+}
+
+.login-with-gmail span {
+    margin-left: 30px;
+}
+
+
+.sign-in-register .header {
+    width: 100%;
+}
+
+.sign-in-register .header-left-wrap {
+    margin-left: 10%;
+}
+
+.sign-in-register .header-right-wrap {
+    margin-right: 10%;
+    width: 36%;
+}
+
+.between-line span {
+    border: 1px solid #b2b2b2;
+    border-radius: 50px;
+    padding: 1px 2px;
+    text-align: center;
+    background-color: white;
+    top: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.login-register-right {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24%;
+    height: 30vh;
+    padding:  10vh 8%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login-title-1 {
+    margin-bottom: 20px;
+}
+
+.login-title-2 {
+    margin-bottom: 20px;
+}
+
+.login-title-3 {
+    margin-bottom: 20px;
+}
+
+.create-account-btn {
+    margin-top: 80px;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px 95px;
+    display: inline-block;
+}
+
+
+
+
+
+
 
 
 
