@@ -660,6 +660,57 @@ a.login {
     transform: translateX(-50%);
 }
 
+input:focus {
+    border: 1px solid #4373ff;
+    color: #4373ff;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown){
+    border: 1px solid #fe3d33;
+    color: #fe3d33;
+}
+
+
+.register-page .login-register-left {
+    position: relative;
+    left: 90%;
+    transform: translateX(-200%);
+}
+
+.register-page .login-register-right {
+    position: relative;
+    left: 11%;
+    right: auto;
+    transform: translateY(-15%);
+    display: inline-block;
+}
+
+.register-page .login {
+    border-radius: 5px;
+    padding: 13px 0;
+    margin-top: 20px;
+}
+
+.accept-terms{
+    width: calc(63% + 22px);
+    position: relative;
+    left: 0;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+
+label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+input#accept-terms-checkbox {
+    width: 15px;
+    height: 15px;
+}
+
 
 
 
