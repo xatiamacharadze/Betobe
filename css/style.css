@@ -634,6 +634,17 @@ a.login {
     display: inline-block;
 }
 
+.sign-in-form{
+    margin-top: 2vh;
+}
+
+
+.password-recovery .login-register-left{
+    height: 29vh;
+    padding: 20vh 8%;
+}
+
+
 
 
 

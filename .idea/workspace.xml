@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e81d76a-89d9-47e8-9dd5-add3b82fd3d5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/password-recovery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-register.html" afterPath="$PROJECT_DIR$/login-register.html" />
     </list>
     <ignored path="Betobe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,9 +41,24 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="634" column="1" selection-start-line="634" selection-start-column="1" selection-end-line="634" selection-end-column="1" />
+            <state relative-caret-position="641">
+              <caret line="641" column="40" selection-start-line="641" selection-start-column="40" selection-end-line="641" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password-recovery.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/password-recovery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="39" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/login-register.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+              <caret line="72" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="7" />
               <folding>
                 <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -173,6 +188,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/global.css" />
         <option value="$PROJECT_DIR$/login-register.html" />
+        <option value="$PROJECT_DIR$/password-recovery.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -437,12 +453,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491050862279</updated>
       <workItem from="1491050864129" duration="4384000" />
-      <workItem from="1491058770109" duration="19701000" />
+      <workItem from="1491058770109" duration="20886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24085000" />
+    <option name="totallyTimeSpent" value="25270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="980" extended-state="6" />
@@ -696,8 +712,21 @@
     <entry file="file://$PROJECT_DIR$/login-register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+          <caret line="72" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="7" />
           <folding>
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/password-recovery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -705,8 +734,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="634" column="1" selection-start-line="634" selection-start-column="1" selection-end-line="634" selection-end-column="1" />
+        <state relative-caret-position="641">
+          <caret line="641" column="40" selection-start-line="641" selection-start-column="40" selection-end-line="641" selection-end-column="40" />
           <folding />
         </state>
       </provider>
