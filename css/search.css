@@ -28,19 +28,31 @@
 }
 
 .search-page-body-left{
-    width: 19.2%;
-    position: fixed;
+    width: 24.2%;
+    /*position: fixed;
     top: 23.5%;
     top: 229px;
-    left: 10%;
+    left: 10%;*/
+    position: relative;
 }
 
 .search-page-body-right{
-width: 60.5%;
-    left: 31%;
+    width: 76.5%;
+    /*left: 31%;
     position: absolute;
     top: 30%;
-        top: 229px;
+    top: 229px;*/
+    position: relative;
+}
+
+.search-main-grid{
+    width:1500px;
+    top: 225px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .search-left-part{
@@ -66,9 +78,9 @@ width: 60.5%;
 }
 
 .search-left-header-text{
-  font-size: 18px;
-  font-family:'montserrat-semi-bold';
-  color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-family:'montserrat-semi-bold';
+    color: rgb(34, 34, 34);
 }
 
 .search-left-header-logo{
@@ -85,7 +97,7 @@ width: 60.5%;
   font-size: 16px;
   font-family: 'montserrat-extra-light';
   color: rgb(67, 82, 93);
-  padding-bottom: 18px;
+
   padding-top: 18px;
   cursor: pointer;
 }
@@ -134,7 +146,7 @@ width: 60.5%;
 }
 
 .not-ico{
-    height: 21px;
+    height: 19px;
     top: 50%;
     position: relative;
     transform: translateY(-50%);
@@ -207,7 +219,7 @@ width: 60.5%;
     border-radius: 5px;
 }
 .page-header-in{
-    width: 80.6%;
+    width:1500px;
     left: 50%;
     position: relative;
     transform: translateX(-50%);
@@ -228,4 +240,41 @@ width: 60.5%;
 .search-technology-item{
     width: 32%;
     margin-bottom: 41px;
+}
+.stars{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21px;
+
+}
+
+.check-box-container{
+    width: 100%;
+    padding-top: 21px;
+}
+.check-box{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.check-box-text{
+display: inline-block;
+    margin-left: 20px;
+
+    font-size: 14px;
+    font-family: 'montserrat-extra-light';
+    position: relative;
+    vertical-align: top;
+    margin-top: 4px;
+}
+
+@media (max-width :1600px){
+    .search-main-grid {
+        width: 97%;
+    }
+    .page-header-in {
+        width: 94.6%;
+    }
 }
