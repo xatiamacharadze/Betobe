@@ -205,3 +205,8 @@ input{
 .uppercase{
     text-transform: uppercase;
 }
+
+
+*{
+    outline: none;
+}
