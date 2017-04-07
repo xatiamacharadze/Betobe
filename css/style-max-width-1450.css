@@ -22,11 +22,6 @@
         width: 95.9%;
     }
 
-    .header-right-wrap {
-        width: 60%;
-    }
-
-
     .footer-top {
         padding: 0 2%;
     }
@@ -51,6 +46,10 @@
 
     .sign-in-register .header-left-wrap {
         margin-left: 2%;
+    }
+
+    .technology-offer-text {
+        font-size: 14px;
     }
 
 }

@@ -34,7 +34,7 @@
 }
 
 .header-container-text {
-    width: 27%;
+    width: 518px;
     margin: 0 auto;
     position: relative;
     top: 31%;
@@ -80,11 +80,11 @@
 
 .header-right-wrap {
     position: absolute;
-    right: 0;
+    right: 10%;
     top: 50%;
     transform: translateY(-50%);
     text-transform: uppercase;
-    width: 45%;
+    width: 690px;
 }
 
 .header-sign-in {
@@ -141,11 +141,12 @@
 }
 
 .daily-offer-text {
-    width: 55%;
-    display: inline-block;
-    margin-left: 9%;
-    height: 4.4vh;
+    width: 54%;
+    margin-left: 5%;
     overflow: hidden;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 .daily-offer-price {
@@ -157,6 +158,7 @@
 
 .daily-offers {
     height: 29vh;
+    min-height: 240px;
     padding: 0 5%;
     border-radius: 5px;
     -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.1);
@@ -296,6 +298,7 @@ img.more-btn {
     background-position: center center;
     border-radius: 10px;
     /* background-size: cover; */
+    margin-right: 5px;
 }
 
 .special-offer-images {
@@ -369,7 +372,7 @@ img.more-btn {
 }
 
 .technology-item .special-offer-author {
-    top: 120px;
+    top: 48%;
     position: relative;
     width: 85%;
     margin: 0 auto;
@@ -943,10 +946,6 @@ input#accept-terms-checkbox {
     top: 50%;
     transform: translateY(-50%);
 }
-
-
-
-
 
 
 
