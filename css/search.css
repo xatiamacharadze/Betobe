@@ -220,6 +220,12 @@ width: 60.5%;
     transform: translateY(-50%);
     position: absolute;
 }
+
 .search-page-right-body{
     margin-top: 28px;
+}
+
+.search-technology-item{
+    width: 32%;
+    margin-bottom: 41px;
 }
