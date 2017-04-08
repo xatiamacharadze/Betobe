@@ -963,5 +963,209 @@ input#accept-terms-checkbox {
 }
 
 
+.person-page-wrap {
+    width: 1530px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 130px;
+    margin-bottom: 200px;
+}
+
+.person-page-left {
+    width: calc(23% - 100px);
+    padding: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.essential {
+    position: relative;
+    margin: 20px 0;
+}
+
+.business-numbers {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 1px 8px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.essentials-list {
+    margin-top: 40px;
+}
+
+.offers-list {
+    margin-top: 40px;
+}
+
+.needs-list {
+    margin-top: 40px;
+}
+
+
+.person-page-middle {
+    width: 49%;
+    display: inline-block;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 2%;
+}
+
+.i-offer-plus img {
+    width: 16px;
+    line-height: 50px;
+}
+
+.i-offer-plus {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-box-shadow: 0px 0px 24px 10px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 24px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 24px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.person-page-i-offer {
+    height: 100px;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0 10%;
+}
+
+.person-page-i-offer span {
+    position: relative;
+    top: 50%;
+    line-height: 100px;
+    transform: translateY(-50%);
+}
+
+.special-offer-time-left img {
+    display: inline-block !important;
+}
+
+.person-list-friend {
+    position: relative;
+}
+
+.person-list-friend .special-offer {
+    width: calc(100% - 200px);
+    margin-top: 30px;
+    padding: 35px 100px;
+}
+
+.person-list-friend .offer-img {
+    background-size: contain;
+    background-position: left center;
+}
+
+.person-page-sponsored-ads {
+    height: 130px;
+    line-height: 130px;
+    position: relative;
+}
+
+.person-page-sponsored-ads span:last-child {
+    padding: 2px 15px;
+    border-radius: 50px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.person-list-friend .special-offer-time-left {
+    display: inline-block;
+    /*margin-bottom: 30px;*/
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.person-page-sponsored-profiles {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person-page-sponsored-profiles .technology-item {
+    width: 48%;
+}
+
+.person-page-right {
+    position: absolute;
+    display: inline-block;
+    width: 23%;
+}
+
+.person-page-popular {
+    height: 50px;
+    line-height: 50px;
+}
+
+.person-page-right-info {
+    position: relative;
+}
+
+.person-page-right-info .technology-item {
+    width: 100%;
+}
+
+.person-page-suggested-people {
+    padding: 40px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+.person-page-suggested-people svg.more-btn {
+    width: 17px;
+    border: 1px solid #cdcfd1;
+    border-radius: 50px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+.suggested-people-title img.more-btn {
+    border: none;
+    width: 4px;
+    top: 40px;
+    right: 40px;
+    transform: translateY(0);
+}
+
+.person-page-suggested-people .special-offer-author {
+    margin-top: 20px;
+}
+
+.person-page-suggested-people line {
+    stroke: #cdcfd1 !important;
+}
+
+
+
+.person-page-middle .chat-person-timeline {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
 
 

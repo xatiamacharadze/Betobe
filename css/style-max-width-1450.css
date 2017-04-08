@@ -32,6 +32,16 @@
         width: 1430px;
     }
 
+    .person-page-wrap {
+        width: 1430px;
+
+    }
+
+    .person-page-suggested-people {
+        padding: 30px;
+
+    }
+
 }
 
 
@@ -46,10 +56,41 @@
     }
 
     .author-profile-icon {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
     }
 
+    .person-page-wrap {
+        width: 1140px;
+    }
+
+
+    .person-list-friend .special-offer {
+        width: calc(100% - 100px);
+        padding: 35px 50px;
+    }
+
+
+    .person-page-left {
+        width: calc(23% - 60px);
+        padding: 30px;
+    }
+
+    .person-page-suggested-people svg.more-btn {
+        width: 14px;
+    }
+
+    .author-name-position {
+        margin-left: 10px;
+    }
+
+    .chat-person-setting.active:after {
+        left: -30px;
+    }
+
+    .person-page-suggested-people {
+        padding: 30px 15px;
+    }
 
     .header-wrap {
         max-width: 1140px;
