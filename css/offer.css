@@ -1,0 +1,152 @@
+.offer-overlay{
+    background-color: black;
+    opacity: 0.902;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.offer-container{
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    width: 674px;
+    min-height: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10vh;
+    padding: 2%;
+}
+
+.close-btn{
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 30px 0px rgba(45, 107, 141, 0.25);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 16px;
+    font-family: cursive;
+    color: #4545ef;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.closed-categorie{
+    width: 100%;
+    height: 60px;
+    border: 1px solid grey;
+}
+
+#third .grid-cont {
+    padding-top: 20px;
+}
+.grid-box {
+    background-color: #fff;
+    padding: 2% 2%;
+    overflow: hidden;
+    border-bottom: .1rem solid #d9e1e8;
+    position: relative;
+}
+.box-head {
+    color: #8c8c8c;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.box-text {
+    font-size: 1.4rem;
+    font-style: normal;
+  font-family: "montserrat-extra-light";
+    /*margin-top: 2.5rem;*/
+    color: #767676;
+    display: none;
+    cursor: pointer;
+    /*padding-left: 2%;
+    border-left: .3rem solid #009bea;*/
+}
+.box-head:after {
+    content: '+';
+    color: #bdd0e1;
+    font-size: 2.5rem;
+    position: absolute;
+    right: 4%;
+    font-style: normal;
+    top: -2px;
+  font-family: "montserrat-extra-light";
+}
+
+.active-box .box-head {
+    color: #4545ef;
+}
+.offer-input{
+    width: 100%;
+    height: 40px;
+    -webkit-appearance: none;
+    font-size: 16px;
+    outline: none;
+  font-family: "montserrat-extra-light";
+    border-bottom: 1px solid black;
+    margin-top: 43px;
+}
+
+.offer-big-input{
+    width: 100%;
+    height: 150px;
+    -webkit-appearance: none;
+    font-size: 16px;
+    outline: none;
+  font-family: "montserrat-extra-light";
+    border: 1px solid black;
+    margin-top: 43px;
+
+}
+
+.add-photos{
+  border-width: 1px;
+  border-color: rgb(215, 215, 215);
+  border-style: dashed;
+  border-radius: 8px;
+}
+
+.add-photos{
+    border-width: 1px;
+    border-color: rgb(215, 215, 215);
+    border-style: dashed;
+    border-radius: 8px;
+    width: 161px;
+    height: 161px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 23px;
+}
+
+.added-photo{
+    background-image: url(../img/kaxa.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 0px;
+}
+
+.add-photos-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+
+}
+.grid-cont{
+    margin-top: 60px;
+}

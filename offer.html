@@ -1,0 +1,109 @@
+<head>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/description.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/offer.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="offer-overlay">
+    </div>
+
+    <div class="offer-container">
+        <div class="close-btn">x</div>
+
+
+        <div class="grid-cont">
+            <div class="grid-box anim-3">
+                <div class="box-head">General Information</div>
+                <div class="box-text">
+                
+                    <div class="add-photos added-photo"></div>
+                    <div class="add-photos">
+                        <div class="add-photos-text">
+                        +<br>
+                        Add Photos
+                        </div>
+
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <div class="grid-box anim-4">
+                <div class="box-head">Offer Details</div>
+                <div class="box-text">
+                    <input class="offer-input" type="text" placeholder="Packgagin" />
+                    <input class="offer-input" type="text" placeholder="20 ft Container" />
+                    <input class="offer-input" type="text" placeholder="40 ft Container" />
+                    <input class="offer-input" type="text" placeholder="Payment Terms" />
+                    <input class="offer-input" type="text" placeholder="Shipped from the Country" />
+                    <input class="offer-input" type="text" placeholder="Waranties" />
+                    <input class="offer-input" type="text" placeholder="Delivery Time" />
+                    <input class="offer-input" type="text" placeholder="Delivery Terms" />
+
+                </div>
+            </div>
+
+            <div class="grid-box anim-5">
+                <div class="box-head">Product Details</div>
+                <div class="box-text">
+                    <input class="offer-input" type="text" placeholder="Name of Brand" />
+                    <input class="offer-input" type="text" placeholder="Made in Country" />
+                    <input class="offer-input" type="text" placeholder="Size" />
+                    <input class="offer-input" type="text" placeholder="Dimensions" />
+                    <input class="offer-input" type="text" placeholder="Weight" />
+                    <input class="offer-input" type="text" placeholder="Waranties" />
+                    <input class="offer-input" type="text" placeholder="Model Number" />
+                </div>
+            </div>
+
+            <div class="grid-box anim-6">
+                <div class="box-head">Company</div>
+                <div class="box-text">
+                    <input class="offer-input" type="text" placeholder="Company Name" />
+                    <input class="offer-input" type="text" placeholder="Company Webpage" />
+                    <input class="offer-input" type="text" placeholder="Company Recognation" />
+                    <input class="offer-input" type="text" placeholder="Company Membership" />
+                    <input class="offer-input" type="text" placeholder="Number of Employees" />
+                    <input class="offer-input" type="text" placeholder="Capacity of Company" />
+                </div>
+            </div>
+
+            <div class="grid-box anim-7">
+                <div class="box-head">Description</div>
+                <div class="box-text">
+                        <input class="offer-big-input" type="text" placeholder="write your description" />
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script>
+        $('.box-head').on('click', function () {
+            var ss = $(this).parent();
+            if (ss.hasClass('active-box')) {
+                ss.find('.box-text').slideToggle('fast').parent().removeClass('active-box');
+            }
+            else {
+
+                $('.grid-cont').find('.active-box').find('.box-text').slideToggle('fast').parent().removeClass('active-box');
+                ss.find('.box-text').slideToggle('fast').parent().addClass('active-box');
+            }
+        });
+    </script>
+
+</body>
