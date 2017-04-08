@@ -35,4 +35,17 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 3
     });
+
+
+
+    var personPageSlick =  $('.person-list-friend .special-offer-images');
+
+    console.log(personPageSlick);
+
+    personPageSlick.slick({
+        dots: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4
+    });
 });

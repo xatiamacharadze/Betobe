@@ -8,35 +8,118 @@
     .sign-in-register .header-left-wrap {
         margin-left: 5%;
     }
+
+    .header-wrap {
+        width: 1430px;
+    }
+
+
+    .chat-middle {
+        width: 1430px;
+        /* padding: 0 3%; */
+    }
+
+    .chat-middle-left {
+        width: calc(23% - 40px);
+        padding: 20px;
+    }
+
+    .footer-top {
+        width: 1430px;
+    }
+
+    .footer-bottom {
+        width: 1430px;
+    }
+
+    .person-page-wrap {
+        width: 1430px;
+
+    }
+
+    .person-page-suggested-people {
+        padding: 30px;
+
+    }
+
 }
 
 
 
 
 @media screen and (max-width: 1450px){
-    .header {
-        width: 95.9%;
+
+
+    .fs-16 {
+        font-size: 14px;
+        line-height: 24.6px;
+    }
+
+    .author-profile-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+<<<<<<< HEAD
+=======
+    .person-page-wrap {
+        width: 1140px;
+    }
+
+
+    .person-list-friend .special-offer {
+        width: calc(100% - 100px);
+        padding: 35px 50px;
+    }
+
+
+    .person-page-left {
+        width: calc(23% - 60px);
+        padding: 30px;
+    }
+
+    .person-page-suggested-people svg.more-btn {
+        width: 14px;
+    }
+
+    .author-name-position {
+        margin-left: 10px;
+    }
+
+    .chat-person-setting.active:after {
+        left: -30px;
+    }
+
+    .person-page-suggested-people {
+        padding: 30px 15px;
+    }
+
+    .header-wrap {
+        max-width: 1140px;
+    }
+
+    .chat-middle {
+        max-width: 1140px;
     }
 
     .person-list-middle-wrap {
         width: 95.9%;
     }
 
+>>>>>>> 746712ec2a671ca925fca40f99763d508320420c
     .footer-top {
-        padding: 0 2%;
+        width: 1140px;
     }
 
     .footer-contact {
-        right: 3%;
         width: 35%;
     }
 
     .all-rights-reserved {
-        right: 3%;
     }
 
     .footer-bottom {
-        padding: 0 2%;
+        width: 1140px;
     }
 
     .sign-in-register .header-right-wrap {
@@ -52,5 +135,17 @@
         font-size: 14px;
     }
 
+<<<<<<< HEAD
+=======
+
+    .type-message-bottom img:last-child {
+        width: 30px;
+    }
+
+    .type-message-bottom input {
+        width: 68%;
+    }
+
+>>>>>>> 746712ec2a671ca925fca40f99763d508320420c
 }
 
