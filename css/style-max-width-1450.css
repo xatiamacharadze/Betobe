@@ -60,6 +60,8 @@
         height: 45px;
     }
 
+<<<<<<< HEAD
+=======
     .person-page-wrap {
         width: 1140px;
     }
@@ -104,6 +106,7 @@
         width: 95.9%;
     }
 
+>>>>>>> 746712ec2a671ca925fca40f99763d508320420c
     .footer-top {
         width: 1140px;
     }
@@ -132,6 +135,8 @@
         font-size: 14px;
     }
 
+<<<<<<< HEAD
+=======
 
     .type-message-bottom img:last-child {
         width: 30px;
@@ -141,5 +146,6 @@
         width: 68%;
     }
 
+>>>>>>> 746712ec2a671ca925fca40f99763d508320420c
 }
 
