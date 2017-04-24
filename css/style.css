@@ -1248,4 +1248,85 @@ input#accept-terms-checkbox {
 }
 
 
+/*New Page Followers*/
 
+
+.filters img {
+    width: 18px;
+    transform: rotate(90deg);
+    margin-right: 10px;
+}
+
+.filters {
+    display: inline-block;
+}
+
+.person-followers-filter {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.person-followers-title {
+    line-height: 40px;
+}
+
+
+.person-follower-partner {
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 15px;
+    position: relative;
+    width: calc(30% - 30px);
+    text-align: center;
+}
+
+.person-followers-tab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.partner-cover {
+    height: 90px;
+    width: calc(100% + 30px);
+    position: relative;
+    left: -15px;
+    top: -15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.view-profile {
+    display: inline-block;
+    margin: 20px 0 10px;
+    padding: 7px 20px;
+    border-radius: 50px;
+}
+
+
+
+.person-follower-partner img {
+    width: 55px;
+    border-radius: 50px;
+    position: absolute;
+    top: 90px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.person-follower-partner .author-name-position {
+    margin: 15px 0;
+    width: 100%;
+}
+
+
+
+
+/*New Page Followers*/
